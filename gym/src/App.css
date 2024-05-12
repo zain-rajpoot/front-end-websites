@@ -1,0 +1,14 @@
+:root {
+  --main: #f0e221;
+  --white: white;
+  --bg-color: rgb(37, 37, 37);
+  --navbar: rgba(0, 0, 0, 0.3);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}

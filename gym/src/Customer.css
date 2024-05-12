@@ -1,0 +1,32 @@
+:root {
+    --main:  #f0e221;
+    --white: white;
+    --bg-color: rgb(37, 37, 37);
+    --navbar: rgba(0, 0, 0, 0.3);
+}
+
+.Customer h1 {
+    font-size: 60px;
+    color: var(--main);
+    text-align: center;
+    margin: 50px;
+}
+
+.cumstomers {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cumstomers_detail1 {
+    width: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.cumstomers_detail1 p {
+    background-color: var(--main);
+    padding: 20px;
+    font-family: sans-serif;
+}

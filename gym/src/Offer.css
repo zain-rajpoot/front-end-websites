@@ -1,0 +1,56 @@
+:root {
+    --main:  #f0e221;
+    --white: white;
+    --bg-color: rgb(37, 37, 37);
+    --navbar: rgba(0, 0, 0, 0.3);
+}
+.Offer h1 {
+    color: var(--main);
+    font-size: 70px;
+    text-align: center;
+}
+
+.Offer p {
+    text-align: center;
+    color: var(--white);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.Offer div {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.Offer div .offers {
+    width: 300px;
+    height: 400px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.Offer div .offer1 {
+    background: url(./offer_bg1.jpg) no-repeat;
+    background-size: cover;
+}
+.Offer div .offer2 {
+    background: url(./offer_bg2.jpg) no-repeat;
+    background-size: cover;
+}
+.Offer div .offer3 {
+    background: url(./offer_bg3.jpg) no-repeat;
+    background-size: cover;
+}
+
+.Offer div .offers p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    color: var(--white);
+}

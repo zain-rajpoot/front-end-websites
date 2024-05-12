@@ -1,0 +1,43 @@
+:root{
+    --main: #f0e221;
+    --white:white;
+    --bg-color:rgb(37, 37, 37);
+    --navbar:rgba(0, 0, 0, 0.3);
+  }
+
+#about_page{
+    position: absolute;
+    top: 35%;
+    padding: 20px;
+    width: 40%;
+    font-family: sans-serif;
+}
+#about_page h1{
+    color: var(--main);
+    font-size: 70px;
+}
+#about_page h1 span{
+    color: var(--white);
+}
+#about_page p{
+    color: var(--white);
+    font-size: 20px;
+    word-spacing: 7px;
+    line-height: 30px;
+}
+#about_page a {
+    color: var(--white);
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+#about_img{
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+#about_img img {
+    border-radius: 4px;
+    margin: 20px;
+}
